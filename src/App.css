@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+}
+
+.App h1 {
+  color: #333;
 }
 
 .App-logo {
