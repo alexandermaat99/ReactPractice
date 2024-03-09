@@ -9,11 +9,11 @@ interface TeamCardProps {
 const TeamCard: React.FC<TeamCardProps> = ({ team }) => {
   return (
     <div className="team-card">
-      <h2>
-        {team.school} {team.name}
-      </h2>
+      <h2>{team.school}</h2>
+
       <p>
         Location: {team.city}, {team.state}
+        Mascot {team.name}
       </p>
     </div>
   );
