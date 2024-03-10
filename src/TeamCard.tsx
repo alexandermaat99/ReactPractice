@@ -13,7 +13,8 @@ const TeamCard: React.FC<TeamCardProps> = ({ team }) => {
 
       <p>
         Location: {team.city}, {team.state}
-        Mascot {team.name}
+        <br />
+        Mascot: {team.name}
       </p>
     </div>
   );

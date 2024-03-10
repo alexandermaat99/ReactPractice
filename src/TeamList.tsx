@@ -1,7 +1,6 @@
 import React from 'react';
 import TeamCard from './TeamCard';
 import { Team } from './types';
-import './TeamList.css';
 
 interface TeamListProps {
   teams: Team[];
